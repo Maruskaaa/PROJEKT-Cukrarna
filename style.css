@@ -31,5 +31,39 @@ html { box-sizing: border-box; }
 
 body {
 	margin: 0;
+	font-family: 'Lora', serif;
+	font-size: 18px;
+	line-height: 1.5;
+	
 }
 
+.logo {width: 170px;
+margin: 30px 0 30px 0}
+
+.header {display: flex; 
+justify-content: space-between;
+align-items: center;
+padding: 30px}
+
+.menu {display: flex;
+list-style: none;}
+
+.menu a {text-decoration: none;
+color: black;
+padding: 10px 15px;}
+
+.hero {background-image: url(images/cupcake.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+color: white;
+padding:80px
+
+}
+
+.hero p {font-size: 24px; 
+font-style: italic; 
+padding-right: 40%;}
+
+.hero h1 {font-size: 52px;
+padding-right: 40%;}
